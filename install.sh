@@ -12,6 +12,4 @@ node -v
 npm -v
 sudo yum update -y
 sudo yum install git -y
-git clone https://github.com/goelvibhu/xmeme.git
-cd xmeme
 npm install
