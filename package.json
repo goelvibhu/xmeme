@@ -1,0 +1,19 @@
+{
+  "name": "vaibhav-goel098-me_buildout_xmeme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/index.js",
+    "dev": "env-cmd -f ./config/dev.env node backend/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  }
+}

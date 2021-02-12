@@ -1,0 +1,16 @@
+label {
+    width: 240px;
+    display: inline-block;
+}
+
+#butt {
+    margin-left: 240px;
+}
+
+#memfind {
+    margin-left: 240px;
+}
+
+p {
+    color: red;
+}

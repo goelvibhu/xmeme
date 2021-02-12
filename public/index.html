@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="description">
+            <h1 style="text-align: center;">Xmeme</h1>
+        </div>
+        <div id="memeinfo">
+            <form action="/memes" method="post" id="myform">
+                <label for="name"><b>Name</b></label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="caption"><b>Caption</b></label>
+                <input type="text" id="caption" name="caption"><br><br>
+                <label for="url"><b>URL</b></label>
+                <input type="text" id="url" name="url"><br><br>
+                <input type="button" value="Submit" id="butt">
+            </form>
+        </div>
+        <br><br>
+        <div id="memefind">
+                <label><b>Memeid</b></label>
+                <input type="text" id="msg"><br><br>
+                <input type="button" value="Findbyid" id="memfind">
+        </div>
+        <div class="container">
+            <br><br>
+            <p>Get latest 100 memes.</p>
+                <input type="button" value="Getmemes" id="getmeme">
+            </div>
+            <div class='result-container'>
+
+            </div>
+        <script src="app.js"></script>
+    </body>
+</html>
