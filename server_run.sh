@@ -1,2 +1,2 @@
-sudo apt-y npm install
+sudo apt-get install -y npm
 npm run start
